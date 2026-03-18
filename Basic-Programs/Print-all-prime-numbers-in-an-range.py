@@ -16,6 +16,8 @@ print(prime_number) """
 """ TC = O(N^2), Because The outer loop runs N times and the inner loop runs up to N times
 SC = O(N) due to storing prime numbers in a list """
 
+# Sieve of Eratosthenes Method
+
 x, y = 2, 16
 primes = [True] * (y + 1)
 
@@ -29,3 +31,5 @@ for i in range(2,int(y ** 0.5)+1):
 res = [i for i in range(x,y+1) if primes[i]]
 print(res if res else 'No')
 
+""" TC = O(n Log Log n) 
+SC = O(N) """
