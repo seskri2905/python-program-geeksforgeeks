@@ -7,3 +7,6 @@ for i in arr:
         max_value = i
 
 print(max_value)
+
+""" TC = O(N)
+SC = O(1) """
