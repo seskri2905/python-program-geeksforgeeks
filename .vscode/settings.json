@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["condn"]
+  "cSpell.words": ["condn"],
+  "python-envs.defaultEnvManager": "ms-python.python:system"
 }
